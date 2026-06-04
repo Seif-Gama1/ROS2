@@ -1,0 +1,50 @@
+[0.006s] Invoking command in '/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/seif/workspace/my_ros/new_dir/hello_ros2 -DCMAKE_INSTALL_PREFIX=/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2
+[0.014s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.157s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.157s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.222s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.250s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.328s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.328s] -- Configured cppcheck include dirs: 
+[0.328s] -- Configured cppcheck exclude dirs and/or files: 
+[0.328s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.329s] -- Added test 'lint_cmake' to check CMake code style
+[0.330s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.332s] -- Added test 'uncrustify' to check C / C++ code style
+[0.332s] -- Configured uncrustify additional arguments: 
+[0.333s] -- Added test 'xmllint' to check XML markup files
+[0.334s] -- Configuring done
+[0.338s] -- Generating done
+[0.340s] -- Build files have been written to: /home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2
+[0.345s] Invoked command in '/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/seif/workspace/my_ros/new_dir/hello_ros2 -DCMAKE_INSTALL_PREFIX=/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2
+[0.347s] Invoking command in '/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2 -- -j20 -l20
+[0.385s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/hello_node.cpp.o[0m
+[2.006s] [100%] [32m[1mLinking CXX executable hello_node[0m
+[2.081s] [100%] Built target hello_node
+[2.089s] Invoked command in '/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2 -- -j20 -l20
+[2.097s] Invoking command in '/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2
+[2.105s] -- Install configuration: ""
+[2.105s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/lib/hello_ros2/hello_node
+[2.105s] -- Set runtime path of "/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/lib/hello_ros2/hello_node" to ""
+[2.105s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/ament_index/resource_index/package_run_dependencies/hello_ros2
+[2.105s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/ament_index/resource_index/parent_prefix_path/hello_ros2
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/ament_prefix_path.sh
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/ament_prefix_path.dsv
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/path.sh
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/path.dsv
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.bash
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.sh
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.zsh
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.dsv
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/package.dsv
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/ament_index/resource_index/packages/hello_ros2
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/cmake/hello_ros2Config.cmake
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/cmake/hello_ros2Config-version.cmake
+[2.106s] -- Installing: /home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/package.xml
+[2.107s] Invoked command in '/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2

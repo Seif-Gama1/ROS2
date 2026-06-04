@@ -1,0 +1,10 @@
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/uninstall.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/hello_ros2_uninstall.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/hello_node_cpp.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/test.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/edit_cache.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/rebuild_cache.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/list_install_components.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/install.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/install/local.dir
+/home/seif/workspace/my_ros/new_dir/hello_ros2/build/hello_ros2/CMakeFiles/install/strip.dir

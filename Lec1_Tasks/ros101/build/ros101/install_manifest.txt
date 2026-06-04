@@ -1,0 +1,17 @@
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/lib/ros101/int32_publisher
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/lib/ros101/int32_subscriber
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ament_index/resource_index/package_run_dependencies/ros101
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ament_index/resource_index/parent_prefix_path/ros101
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/environment/ament_prefix_path.sh
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/environment/ament_prefix_path.dsv
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/environment/path.sh
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/environment/path.dsv
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/local_setup.bash
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/local_setup.sh
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/local_setup.zsh
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/local_setup.dsv
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/package.dsv
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ament_index/resource_index/packages/ros101
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/cmake/ros101Config.cmake
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/cmake/ros101Config-version.cmake
+/home/seif/workspace/my_ros/new_dir/ros101/install/ros101/share/ros101/package.xml

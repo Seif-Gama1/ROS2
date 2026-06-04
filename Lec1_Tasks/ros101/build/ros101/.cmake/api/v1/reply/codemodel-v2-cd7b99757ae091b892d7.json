@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c50c7a434498b4eeaa9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros101",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "int32_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-int32_publisher-104caddb1a1f8ea00c80.json",
+					"name" : "int32_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "int32_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-int32_subscriber-9e251ff14fe7839b102f.json",
+					"name" : "int32_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros101_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros101_uninstall-e9503e19b77ffff3fce6.json",
+					"name" : "ros101_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-27809f8aa39b3739bde3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/seif/workspace/my_ros/new_dir/ros101/build/ros101",
+		"source" : "/home/seif/workspace/my_ros/new_dir/ros101"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

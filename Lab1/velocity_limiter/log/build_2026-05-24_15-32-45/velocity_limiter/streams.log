@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter -- -j20 -l20
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target cmd_vel_limiter_node[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_limiter_node.dir/src/cmd_vel_limiter.cpp.o[0m
+[5.476s] [100%] [32m[1mLinking CXX executable cmd_vel_limiter_node[0m
+[5.734s] [100%] Built target cmd_vel_limiter_node
+[5.745s] Invoked command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter -- -j20 -l20
+[5.755s] Invoking command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter
+[5.762s] -- Install configuration: ""
+[5.762s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/lib/velocity_limiter/cmd_vel_limiter_node
+[5.764s] -- Set runtime path of "/home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/lib/velocity_limiter/cmd_vel_limiter_node" to ""
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/ament_index/resource_index/package_run_dependencies/velocity_limiter
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/ament_index/resource_index/parent_prefix_path/velocity_limiter
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/ament_prefix_path.sh
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/ament_prefix_path.dsv
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/path.sh
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/path.dsv
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.bash
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.sh
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.zsh
+[5.764s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.dsv
+[5.764s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/package.dsv
+[5.765s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/ament_index/resource_index/packages/velocity_limiter
+[5.765s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/cmake/velocity_limiterConfig.cmake
+[5.765s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/cmake/velocity_limiterConfig-version.cmake
+[5.765s] -- Up-to-date: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/package.xml
+[5.766s] Invoked command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter

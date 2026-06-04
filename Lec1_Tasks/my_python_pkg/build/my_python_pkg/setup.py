@@ -1,0 +1,1 @@
+/home/seif/workspace/my_ros/new_dir/my_python_pkg/setup.py

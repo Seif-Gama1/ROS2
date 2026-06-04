@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000305] (topic_examples) JobQueued: {'identifier': 'topic_examples', 'dependencies': OrderedDict()}
+[0.000718] (topic_examples) JobStarted: {'identifier': 'topic_examples'}
+[0.005691] (topic_examples) JobProgress: {'identifier': 'topic_examples', 'progress': 'cmake'}
+[0.006057] (topic_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/seif/workspace/my_ros/new_dir/topic_examples', '-DCMAKE_INSTALL_PREFIX=/home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples'], 'cwd': '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_GB:en'), ('USER', 'seif'), ('LC_TIME', 'ar_EG.UTF-8'), ('HELLO', 'Daetrex'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/seif/miniconda3/envs/tf_gpu/lib/:/home/seif/miniconda3/envs/tf_gpu/lib/'), ('HOME', '/home/seif'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/seif/workspace/my_ros/new_dir'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2168'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2626e3ff08bc1e00d3e01f136a12a53a'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/seif/miniconda3'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seif'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seif'), ('STM32_PRG_PATH', '/home/seif/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/aarch64-none-elf/bin:/home/seif/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/seif/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/opt/aarch64-none-elf/bin:/home/seif/miniconda3/bin:/home/seif/miniconda3/condabin:/home/seif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Daetrex:@/tmp/.ICE-unix/2168,unix/Daetrex:/tmp/.ICE-unix/2168'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f21c5a76_6a0a_47a6_af1c_053e4d39a5ea'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHO5P3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a648aeb025.sock'), ('GNOME_TERMINAL_SERVICE', ':1.359'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/seif/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('_CONDA_EXE', '/home/seif/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/seif/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2626e3ff08bc1e00d3e01f136a12a53a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('CONDA_PREFIX', '/home/seif/miniconda3'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054888] (topic_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100035] (-) TimerEvent: {}
+[0.107094] (topic_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.114900] (topic_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.177997] (topic_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.182639] (topic_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.183033] (topic_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.183104] (topic_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.185924] (topic_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200120] (-) TimerEvent: {}
+[0.254602] (topic_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.260300] (topic_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.260457] (topic_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.260720] (topic_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.261854] (topic_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300209] (-) TimerEvent: {}
+[0.400457] (-) TimerEvent: {}
+[0.500699] (-) TimerEvent: {}
+[0.578365] (topic_examples) StdoutLine: {'line': b'-- Found Python3: /home/seif/miniconda3/bin/python3 (found version "3.13.11") found components: Interpreter \n'}
+[0.600824] (-) TimerEvent: {}
+[0.658283] (topic_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.688529] (topic_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.692684] (topic_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700134] (topic_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.700943] (-) TimerEvent: {}
+[0.711171] (topic_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.725187] (topic_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.753356] (topic_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.755763] (topic_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801067] (-) TimerEvent: {}
+[0.835464] (topic_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.857383] (topic_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.896865] (topic_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901184] (-) TimerEvent: {}
+[0.906084] (topic_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.972193] (topic_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.972529] (topic_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001459] (-) TimerEvent: {}
+[1.043823] (topic_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.044679] (topic_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101571] (-) TimerEvent: {}
+[1.195919] (topic_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201695] (-) TimerEvent: {}
+[1.203870] (topic_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[1.207429] (topic_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples\n'}
+[1.216404] (topic_examples) CommandEnded: {'returncode': 0}
+[1.217005] (topic_examples) JobProgress: {'identifier': 'topic_examples', 'progress': 'build'}
+[1.217694] (topic_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples', '--', '-j20', '-l20'], 'cwd': '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_GB:en'), ('USER', 'seif'), ('LC_TIME', 'ar_EG.UTF-8'), ('HELLO', 'Daetrex'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/seif/miniconda3/envs/tf_gpu/lib/:/home/seif/miniconda3/envs/tf_gpu/lib/'), ('HOME', '/home/seif'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/seif/workspace/my_ros/new_dir'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2168'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2626e3ff08bc1e00d3e01f136a12a53a'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/seif/miniconda3'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seif'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seif'), ('STM32_PRG_PATH', '/home/seif/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/aarch64-none-elf/bin:/home/seif/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/seif/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/opt/aarch64-none-elf/bin:/home/seif/miniconda3/bin:/home/seif/miniconda3/condabin:/home/seif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Daetrex:@/tmp/.ICE-unix/2168,unix/Daetrex:/tmp/.ICE-unix/2168'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f21c5a76_6a0a_47a6_af1c_053e4d39a5ea'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHO5P3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a648aeb025.sock'), ('GNOME_TERMINAL_SERVICE', ':1.359'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/seif/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('_CONDA_EXE', '/home/seif/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/seif/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2626e3ff08bc1e00d3e01f136a12a53a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('CONDA_PREFIX', '/home/seif/miniconda3'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.261590] (topic_examples) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[1.261897] (topic_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[1.301827] (-) TimerEvent: {}
+[1.402193] (-) TimerEvent: {}
+[1.502520] (-) TimerEvent: {}
+[1.602855] (-) TimerEvent: {}
+[1.703162] (-) TimerEvent: {}
+[1.803470] (-) TimerEvent: {}
+[1.903769] (-) TimerEvent: {}
+[2.004059] (-) TimerEvent: {}
+[2.104355] (-) TimerEvent: {}
+[2.204739] (-) TimerEvent: {}
+[2.305111] (-) TimerEvent: {}
+[2.405400] (-) TimerEvent: {}
+[2.505725] (-) TimerEvent: {}
+[2.606020] (-) TimerEvent: {}
+[2.706360] (-) TimerEvent: {}
+[2.806658] (-) TimerEvent: {}
+[2.906958] (-) TimerEvent: {}
+[3.007262] (-) TimerEvent: {}
+[3.107560] (-) TimerEvent: {}
+[3.207955] (-) TimerEvent: {}
+[3.308325] (-) TimerEvent: {}
+[3.408640] (-) TimerEvent: {}
+[3.508984] (-) TimerEvent: {}
+[3.609281] (-) TimerEvent: {}
+[3.709603] (-) TimerEvent: {}
+[3.809917] (-) TimerEvent: {}
+[3.910380] (-) TimerEvent: {}
+[4.011008] (-) TimerEvent: {}
+[4.111292] (-) TimerEvent: {}
+[4.211716] (-) TimerEvent: {}
+[4.312035] (-) TimerEvent: {}
+[4.408084] (topic_examples) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[4.412146] (-) TimerEvent: {}
+[4.512473] (-) TimerEvent: {}
+[4.535487] (topic_examples) StdoutLine: {'line': b'[ 75%] Built target publisher_node\n'}
+[4.612611] (-) TimerEvent: {}
+[4.712913] (-) TimerEvent: {}
+[4.813217] (-) TimerEvent: {}
+[4.913489] (-) TimerEvent: {}
+[5.013889] (-) TimerEvent: {}
+[5.114186] (-) TimerEvent: {}
+[5.214484] (-) TimerEvent: {}
+[5.314769] (-) TimerEvent: {}
+[5.415023] (-) TimerEvent: {}
+[5.515273] (-) TimerEvent: {}
+[5.615586] (-) TimerEvent: {}
+[5.716034] (-) TimerEvent: {}
+[5.816454] (-) TimerEvent: {}
+[5.916826] (-) TimerEvent: {}
+[6.017100] (-) TimerEvent: {}
+[6.117385] (-) TimerEvent: {}
+[6.217632] (-) TimerEvent: {}
+[6.317897] (-) TimerEvent: {}
+[6.418179] (-) TimerEvent: {}
+[6.518475] (-) TimerEvent: {}
+[6.618747] (-) TimerEvent: {}
+[6.719111] (-) TimerEvent: {}
+[6.819474] (-) TimerEvent: {}
+[6.919745] (-) TimerEvent: {}
+[7.019995] (-) TimerEvent: {}
+[7.120261] (-) TimerEvent: {}
+[7.121741] (topic_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[7.220384] (-) TimerEvent: {}
+[7.320644] (-) TimerEvent: {}
+[7.355556] (topic_examples) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[7.364193] (topic_examples) CommandEnded: {'returncode': 0}
+[7.364785] (topic_examples) JobProgress: {'identifier': 'topic_examples', 'progress': 'install'}
+[7.371828] (topic_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples'], 'cwd': '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_GB:en'), ('USER', 'seif'), ('LC_TIME', 'ar_EG.UTF-8'), ('HELLO', 'Daetrex'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/seif/miniconda3/envs/tf_gpu/lib/:/home/seif/miniconda3/envs/tf_gpu/lib/'), ('HOME', '/home/seif'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/seif/workspace/my_ros/new_dir'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2168'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2626e3ff08bc1e00d3e01f136a12a53a'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/seif/miniconda3'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seif'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seif'), ('STM32_PRG_PATH', '/home/seif/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/aarch64-none-elf/bin:/home/seif/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/seif/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/opt/aarch64-none-elf/bin:/home/seif/miniconda3/bin:/home/seif/miniconda3/condabin:/home/seif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Daetrex:@/tmp/.ICE-unix/2168,unix/Daetrex:/tmp/.ICE-unix/2168'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f21c5a76_6a0a_47a6_af1c_053e4d39a5ea'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHO5P3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a648aeb025.sock'), ('GNOME_TERMINAL_SERVICE', ':1.359'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/seif/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('_CONDA_EXE', '/home/seif/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seif/workspace/my_ros/new_dir/topic_examples/build/topic_examples'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/seif/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2626e3ff08bc1e00d3e01f136a12a53a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('CONDA_PREFIX', '/home/seif/miniconda3'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.377473] (topic_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.377614] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/lib/topic_examples/publisher_node\n'}
+[7.378222] (topic_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/lib/topic_examples/publisher_node" to ""\n'}
+[7.378255] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/lib/topic_examples/subscriber_node\n'}
+[7.379849] (topic_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/lib/topic_examples/subscriber_node" to ""\n'}
+[7.379919] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/launch\n'}
+[7.379967] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/launch/topic_examples.launch.py\n'}
+[7.380005] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/ament_index/resource_index/package_run_dependencies/topic_examples\n'}
+[7.380068] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/ament_index/resource_index/parent_prefix_path/topic_examples\n'}
+[7.380131] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/environment/ament_prefix_path.sh\n'}
+[7.380177] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/environment/ament_prefix_path.dsv\n'}
+[7.380226] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/environment/path.sh\n'}
+[7.380271] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/environment/path.dsv\n'}
+[7.380319] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/local_setup.bash\n'}
+[7.380364] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/local_setup.sh\n'}
+[7.380414] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/local_setup.zsh\n'}
+[7.380478] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/local_setup.dsv\n'}
+[7.380622] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/package.dsv\n'}
+[7.380704] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/ament_index/resource_index/packages/topic_examples\n'}
+[7.380822] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/cmake/topic_examplesConfig.cmake\n'}
+[7.380887] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/cmake/topic_examplesConfig-version.cmake\n'}
+[7.380946] (topic_examples) StdoutLine: {'line': b'-- Installing: /home/seif/workspace/my_ros/new_dir/topic_examples/install/topic_examples/share/topic_examples/package.xml\n'}
+[7.382311] (topic_examples) CommandEnded: {'returncode': 0}
+[7.392786] (topic_examples) JobEnded: {'identifier': 'topic_examples', 'rc': 0}
+[7.393268] (-) EventReactorShutdown: {}

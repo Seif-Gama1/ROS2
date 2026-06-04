@@ -1,0 +1,16 @@
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/lib/hello_ros2/hello_node_cpp
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/ament_index/resource_index/package_run_dependencies/hello_ros2
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/ament_index/resource_index/parent_prefix_path/hello_ros2
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/ament_prefix_path.sh
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/ament_prefix_path.dsv
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/path.sh
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/environment/path.dsv
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.bash
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.sh
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.zsh
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/local_setup.dsv
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/package.dsv
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/ament_index/resource_index/packages/hello_ros2
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/cmake/hello_ros2Config.cmake
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/cmake/hello_ros2Config-version.cmake
+/home/seif/workspace/my_ros/new_dir/hello_ros2/install/hello_ros2/share/hello_ros2/package.xml

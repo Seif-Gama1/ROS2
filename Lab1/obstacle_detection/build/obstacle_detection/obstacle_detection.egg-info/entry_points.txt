@@ -1,0 +1,4 @@
+[console_scripts]
+main_publisher = obstacle_detection.publisher:main
+subscriber = obstacle_detection.subscriber:main
+

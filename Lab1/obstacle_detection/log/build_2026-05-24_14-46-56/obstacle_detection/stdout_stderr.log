@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating obstacle_detection.egg-info
+writing obstacle_detection.egg-info/PKG-INFO
+writing dependency_links to obstacle_detection.egg-info/dependency_links.txt
+writing entry points to obstacle_detection.egg-info/entry_points.txt
+writing requirements to obstacle_detection.egg-info/requires.txt
+writing top-level names to obstacle_detection.egg-info/top_level.txt
+writing manifest file 'obstacle_detection.egg-info/SOURCES.txt'
+reading manifest file 'obstacle_detection.egg-info/SOURCES.txt'
+writing manifest file 'obstacle_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/lib/python3.10/site-packages/obstacle-detection.egg-link (link to .)
+Installing main_publisher script to /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/lib/obstacle_detection
+Installing subscriber script to /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/lib/obstacle_detection
+
+Installed /home/seif/workspace/my_ros/new_dir/obstacle_detection/build/obstacle_detection
+running symlink_data
+creating /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/share/ament_index
+creating /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/share/ament_index/resource_index
+creating /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/share/ament_index/resource_index/packages
+symbolically linking /home/seif/workspace/my_ros/new_dir/obstacle_detection/build/obstacle_detection/resource/obstacle_detection -> /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/share/ament_index/resource_index/packages
+symbolically linking /home/seif/workspace/my_ros/new_dir/obstacle_detection/build/obstacle_detection/package.xml -> /home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection/share/obstacle_detection

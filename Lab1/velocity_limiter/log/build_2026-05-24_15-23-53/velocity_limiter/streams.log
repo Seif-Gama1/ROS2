@@ -1,0 +1,69 @@
+[0.009s] Invoking command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/seif/workspace/my_ros/new_dir/velocity_limiter -DCMAKE_INSTALL_PREFIX=/home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.094s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.527s] -- Found Python3: /home/seif/miniconda3/bin/python3 (found version "3.13.11") found components: Interpreter 
+[0.602s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.631s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.634s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.684s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.750s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.769s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.797s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.802s] -- Looking for pthread.h
+[0.862s] -- Looking for pthread.h - found
+[0.862s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.931s] -- Found Threads: TRUE  
+[0.967s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.979s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.063s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.063s] -- Configured cppcheck include dirs: 
+[1.063s] -- Configured cppcheck exclude dirs and/or files: 
+[1.064s] -- Added test 'lint_cmake' to check CMake code style
+[1.067s] -- Added test 'uncrustify' to check C / C++ code style
+[1.067s] -- Configured uncrustify additional arguments: 
+[1.067s] -- Added test 'xmllint' to check XML markup files
+[1.068s] -- Configuring done
+[1.074s] -- Generating done
+[1.076s] -- Build files have been written to: /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter
+[1.083s] Invoked command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/seif/workspace/my_ros/new_dir/velocity_limiter -DCMAKE_INSTALL_PREFIX=/home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter
+[1.085s] Invoking command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter -- -j20 -l20
+[1.128s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_limiter_node.dir/src/cmd_vel_limiter.cpp.o[0m
+[6.569s] [100%] [32m[1mLinking CXX executable cmd_vel_limiter_node[0m
+[6.823s] [100%] Built target cmd_vel_limiter_node
+[6.834s] Invoked command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter -- -j20 -l20
+[6.844s] Invoking command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter
+[6.850s] -- Install configuration: ""
+[6.850s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/lib/velocity_limiter/cmd_vel_limiter_node
+[6.852s] -- Set runtime path of "/home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/lib/velocity_limiter/cmd_vel_limiter_node" to ""
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/ament_index/resource_index/package_run_dependencies/velocity_limiter
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/ament_index/resource_index/parent_prefix_path/velocity_limiter
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/ament_prefix_path.sh
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/ament_prefix_path.dsv
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/path.sh
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/environment/path.dsv
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.bash
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.sh
+[6.852s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.zsh
+[6.853s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/local_setup.dsv
+[6.853s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/package.dsv
+[6.853s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/ament_index/resource_index/packages/velocity_limiter
+[6.853s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/cmake/velocity_limiterConfig.cmake
+[6.853s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/cmake/velocity_limiterConfig-version.cmake
+[6.853s] -- Installing: /home/seif/workspace/my_ros/new_dir/velocity_limiter/install/velocity_limiter/share/velocity_limiter/package.xml
+[6.854s] Invoked command in '/home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seif/workspace/my_ros/new_dir/obstacle_detection/install/obstacle_detection:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/seif/workspace/my_ros/new_dir/velocity_limiter/build/velocity_limiter

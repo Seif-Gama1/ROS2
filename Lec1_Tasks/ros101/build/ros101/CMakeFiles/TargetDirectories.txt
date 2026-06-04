@@ -1,0 +1,11 @@
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/uninstall.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/ros101_uninstall.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/int32_publisher.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/int32_subscriber.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/test.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/edit_cache.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/rebuild_cache.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/list_install_components.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/install.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/install/local.dir
+/home/seif/workspace/my_ros/new_dir/ros101/build/ros101/CMakeFiles/install/strip.dir
